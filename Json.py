@@ -2,8 +2,8 @@ import json
 
 student_data = {
 
-123456: ('age', 37),
-147852: ('firstName','Sedov'),
+123456: (37),
+147852: ('Dmytro'),
 258741: ('A country', 'Ukraine'),
 369852: ('Kyiv'),
 369147: ('Year of birth', 1986),
