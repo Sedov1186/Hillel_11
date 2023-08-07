@@ -2,9 +2,9 @@
 
 #student_data = {
 
-#123456: ('age', 37),
-#147852: ('firstName','Sedov'),
-#258741: ('A country', 'Ukraine'),
+#123456: (37),
+#147852: ('Dmytro'),
+#258741: ('Ukraine'),
 #369852: ('Kyiv'),
 #369147: ('Year of birth', 1986),
 #}
@@ -29,16 +29,15 @@ import csv
 name_of_fiwlds1 = 'ID'
 name_of_fiwlds2 = 'Имя'
 name_of_fiwlds3 = 'Возраст'
-name_of_fiwlds4 = 'Телефон'
 with open('data.csv', 'w', newline=None) as file:
     writer = csv.writer(file, delimiter=',')
     writer.writerow(
         [name_of_fiwlds1, name_of_fiwlds2,
-         name_of_fiwlds3, name_of_fiwlds4]
+         name_of_fiwlds3]
 
     )
 users_data = [
-    ['123456', 'Sedov', '37']
+    ['123456', 'Dmytro', '37']
 ]
 for user in users_data:
     with open('data.csv', 'a') as file:
