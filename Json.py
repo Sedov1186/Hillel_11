@@ -4,7 +4,7 @@ student_data = {
     123456: {'Age': 37},
     147852: {'name': 'Dmytro'},
     258741: {'A country': 'Ukraine'},
-    369852: {'Kyiv': None},  # Уточните, что здесь ожидается
+    369852: {'Kyiv': 'Ukraine'},
     369147: {'Year of birth': 1986},
 }
 
